@@ -29,7 +29,7 @@ else # defined two for diff systems because Fish did (not entirely sure why)
 fi
 
 # %3~ # Shows 3 directories deep
-PROMPT='[%{${fg_bold[green]}%}$(prompt_pwd)%{${reset_color}%}]%{${fg[yellow]}%} »%{${reset_color}%} '
+PROMPT='[%{${fg_bold[green]}%}$(prompt_pwd)%{${reset_color}%}]%{${fg[yellow]}%} ∴%{${reset_color}%} '
 RPROMPT='%{${fg_bold[cyan]}%}$(rvm_prompt_info)%{${reset_color}%} %{${fg_bold[yellow]}%}$(git_prompt_info)%{${reset_color}%}$(git_stash) [%T]'
 
 # PROMPT2="%{${fg[$(prompt_color)]}%}»%{${reset_color}%} "

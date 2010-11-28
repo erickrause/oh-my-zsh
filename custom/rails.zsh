@@ -1,0 +1,11 @@
+# rails
+alias sc='script/console'
+alias ss='script/server'
+alias sg='script/generate'
+alias a='autotest -rails'
+alias tlog='tail -f log/development.log'
+alias migrate='rake db:migrate && rake db:test:clone'
+alias remigrate='rake db:migrate:redo && rake db:test:clone'
+alias rst='touch tmp/restart.txt'
+alias rroutes='rake routes'
+alias cycle_passenger='touch tmp/restart.txt'

@@ -18,10 +18,11 @@ unsetopt auto_name_dirs
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(rails git textmate ruby)
+plugins=(rails git textmate ruby brew)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH
+export PATH="$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH"
+
 if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm -v; fi
