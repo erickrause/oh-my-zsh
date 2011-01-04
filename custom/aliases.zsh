@@ -30,8 +30,6 @@ function psg {
 # top level folder shortcuts
 alias src='cd ~/code'
 
-alias h?="history | grep "
-
 # display battery info on your Mac
 # see http://blog.justingreer.com/post/45839440/a-tale-of-two-batteries
 alias battery='ioreg -w0 -l | grep Capacity | cut -d " " -f 17-50'
