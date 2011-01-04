@@ -1,5 +1,4 @@
 # general shortcuts
-alias c='cd '
 alias mv='mv -i'
 alias v='vmstat'
 alias md=mkdir
